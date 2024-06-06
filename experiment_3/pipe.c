@@ -39,7 +39,7 @@ int main(int argc,char * argv[])
     {
         close(fd[1]); //关闭写端 保证数据单向流动
         ret=read(fd[0],buf,sizeof(buf));
-        if (ret < 0)
+        if (ret <= 0)
         {
             sys_error("read wrong");
         }
@@ -50,6 +50,7 @@ int main(int argc,char * argv[])
     else if (pid>0)
     {
         close(fd[0]); //关闭读端 保证数据单向流动
+        // sleep(10);
         write(fd[1],str,strlen(str));
         
         close(fd[1]);

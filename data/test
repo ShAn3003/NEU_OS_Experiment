@@ -1,0 +1,12 @@
+/*test string */
+total 40
+-rw-r----- 1 ma-user ma-group 1455 Jun  6 10:11 1_0.c
+-rw-r----- 1 ma-user ma-group 1608 Jun  6 10:11 2_2.c
+-rw-r----- 1 ma-user ma-group 1753 Jun  6 10:11 3_0.c
+-rw-r----- 1 ma-user ma-group 1496 Jun  6 10:11 anonymous_mmap.c
+-rw-r----- 1 ma-user ma-group  826 Jun  6 14:12 dup.c
+-rw-r----- 1 ma-user ma-group 1165 Jun  6 10:11 mmap_r.c
+-rw-r----- 1 ma-user ma-group 1315 Jun  6 10:11 mmap_w.c
+-rw-r----- 1 ma-user ma-group 2898 Jun  6 10:11 mult_annoymous_pro_con.c
+-rw-r----- 1 ma-user ma-group 1194 Jun  6 10:11 pipe.c
+-rw-r----- 1 ma-user ma-group 1147 Jun  6 10:11 pipe_ls_wc.c

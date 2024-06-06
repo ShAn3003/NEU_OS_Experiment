@@ -10,8 +10,8 @@
 #include <stdlib.h>
 #include <time.h>
 
-#define PAGE_REQUESTS 50
-#define PAGE_RANGE 21
+#define PAGE_REQUESTS 20
+#define PAGE_RANGE 20
 
 // Function to generate a sequence of page requests
 void generate_page_requests(int *page_requests) {

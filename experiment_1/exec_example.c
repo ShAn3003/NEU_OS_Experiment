@@ -14,7 +14,7 @@ int main() {
     printf("Before exec\n");
 
     // 执行自定义程序 HelloWorld.out
-    if (execl("./HelloWorld.out", "./HelloWorld.out", (char *)NULL) == -1) {
+    if (execl("../bin/hello", "../bin/hello", (char *)NULL) == -1) {
         perror("execl failed");
         exit(1);
     }
